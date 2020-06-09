@@ -27,6 +27,9 @@ CLASS YCL_TEST_GIT_2 IMPLEMENTATION.
 
 
   method TEST3.
+    IF sy-uname = 'HEJ'.
+
+    ENDIF.
   endmethod.
 
 
