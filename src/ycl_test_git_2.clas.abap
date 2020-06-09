@@ -17,9 +17,15 @@ CLASS YCL_TEST_GIT_2 IMPLEMENTATION.
 
 
   method TEST1.
+    IF sy-uname = ''.
+
+    ENDIF.
   endmethod.
 
 
   method TEST2.
+  endmethod.
+
+
   endmethod.
 ENDCLASS.
